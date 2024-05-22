@@ -19,6 +19,9 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
+  "engines" : {
+      "node": "18.x"
+  },
   "scripts": {
     "start:front": "react-scripts start",
     "start": "npm run build && npm run server:prod",
